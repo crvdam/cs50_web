@@ -12,8 +12,8 @@ Django Channels
 python -m pip install -U 'channels[daphne]'
 
 ### Technologies
-Python Django
-Django Channels
-Javascript
+- Python Django
+- Django Channels
+- Javascript
 
-![](/image.png)
+![](image.png)
