@@ -1,0 +1,59 @@
+a {
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.googlelogo {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.googlesearch {
+    margin: 10px;
+}
+
+.searchbar {
+    border-radius: 20px;
+    border-color: lightgrey;
+    border-width: 1px;
+    width: 30%;
+    height: 25px;
+    padding-left: 15px;
+}
+
+.advancedsearch {
+    color: white;
+    background-color: rgb(54, 128, 240);
+    padding: 5px;
+    font-weight: bold;
+    border-color: rgb(12, 105, 245)
+}
+
+.advancedbar {
+    padding: 5px;
+    margin: 5px;
+    width: 97%;
+    border-color: lightgrey;
+    border-width: 1px;
+
+}
+
+.left {
+    float: left;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.right {
+    
+    float: left;
+    height: 50%;
+    width: 20%;
+}
+
+p {
+    margin-left: 50px;
+}

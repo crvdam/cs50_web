@@ -1,0 +1,17 @@
+{% extends 'auctions/layout.html' %}
+
+{% block body %}
+    {% for listing in listings %}
+        {% if listing.closed == False %}
+            <div class="listing">
+                <div>
+                    <img src="{{ listing.image_url }}" class="listing-image">
+                </div>
+                <div>
+                    <a href="{% url 'listing' listing.id %}">{{ listing }}</a>
+                    <p>{{ listing.description }}</p>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+{% endblock %}

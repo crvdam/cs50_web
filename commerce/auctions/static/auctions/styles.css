@@ -1,0 +1,91 @@
+body {
+   padding: 10px;
+}
+
+.listing {
+    background-color: rgb(240, 248, 255);
+    padding: 15px;
+    margin: 10px;
+    border-style: solid;
+    border-color: rgb(220, 229, 255);
+    width: 50%;
+    border-radius: 5px;
+    border-width: 1px;
+    display: flex;
+}
+
+.listing-image { 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.listing a {
+    font-weight: bold;
+}
+
+form > * {
+    border-color: rgb(220, 229, 255);
+    border-radius: 5px;
+    border-width: 1px;
+    width: 40%;
+    margin: 3px;
+}
+
+.submit-listing { 
+    background-color: rgb(133, 164, 255);
+}
+
+.category {
+    margin: 2px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+hr { 
+    border: none;
+}
+
+.listing-details-image { 
+    width: 90%;
+    border-radius: 10px;
+}
+
+.comment { 
+    margin: 6px;
+    padding: 6px;
+    background-color: rgb(240, 248, 255);
+    width: 100%
+}
+
+.listing-details {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.listing-details-header {
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.listing-details > div {
+    width: 40%;
+}
+
+hr {
+    border-style: none;
+}
+
+#header-hr {
+    border-bottom-style: solid;
+    border-color: rgb(220, 229, 255);
+
+}
+
+.error-message {
+    color: red;
+}
